@@ -99,7 +99,7 @@ TEST_CASE("find test"){
     CHECK_THROWS(T3.find("great-great-grandmother"));
     CHECK_THROWS(T3.find("great-great-grandfather"));
     CHECK(T3.find("grandfather")==string("David"));
-    CHECK(T3.find("grandmother")==string("Tzvia"));
+    CHECK(T3.find("grandmother")==string("Tzvia") || T3.find("grandmother")==string("Hashiba") );
 
 }
 family::Tree x3("ortal");
