@@ -116,6 +116,13 @@ TEST_CASE("remove test"){
 
     CHECK_NOTHROW(x3.remove("ester"));
     CHECK_NOTHROW(x3.remove("masha"));
+    CHECK_NOTHROW(x3.remove("moshe"));
+    CHECK_NOTHROW(x3.remove("anya"));
+    CHECK_NOTHROW(x3.remove("ema"));
+    CHECK_NOTHROW(x3.remove("mark"));
+    CHECK_NOTHROW(x3.remove("ortal"));
+
+
 
     CHECK_THROWS(x3.remove("ester"));
     CHECK_THROWS(x3.remove(""));
@@ -134,23 +141,6 @@ TEST_CASE("remove test"){
     CHECK_THROWS(T4.remove("David"));
     CHECK_NOTHROW(T4.remove("Noa"));
     CHECK_THROWS(T4.remove("Itzik"));
-
-
-
-            CHECK_NOTHROW(T4.addFather("Noa","Itzik"));
-            CHECK_NOTHROW(T4.addMother("Noa","Tali"));
-            CHECK_NOTHROW(T4.addMother("Tali","Tzvia"));
-            CHECK_NOTHROW(T4.addFather("Tali","David"));
-            CHECK_NOTHROW(T4.addFather("Itzik","Nissim"));
-            CHECK_NOTHROW(T4.addMother("Itzik","Hashiba"));
-            CHECK_THROWS(T4.remove(""));
-            CHECK_THROWS(T4.remove("Niv"));
-            CHECK_THROWS(T4.remove("grandfather"));
-            CHECK_NOTHROW(T4.remove("Tali"));
-            CHECK_THROWS(T4.remove("David"));
-            CHECK_NOTHROW(T4.remove("Noa"));
-            CHECK_THROWS(T4.remove("Itzik"));
-
 
 
 
