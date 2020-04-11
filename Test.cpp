@@ -42,11 +42,11 @@ family::Tree T2("itay");
 TEST_CASE("relation test"){
 
     CHECK_NOTHROW(x.relation("mark"));
-    CHECK_NOTHROW(x.relation("ema")==string("mother"));
     CHECK_NOTHROW(x.relation("moshe"));
-    CHECK_NOTHROW(x.relation("anya")==string("grandmother"));
     CHECK_NOTHROW(x.relation("michael"));
-    CHECK_NOTHROW(x.relation("masha")==string("grandmother"));
+    CHECK(x.relation("ema")==string("mother"));
+    CHECK(x.relation("anya")==string("grandmother"));
+    CHECK(x.relation("masha")==string("grandmother"));
     CHECK(x.relation("ester")==string("great-grandmother"));
 
     CHECK_FALSE(x.relation("ester")==string("great-grandfather"));
