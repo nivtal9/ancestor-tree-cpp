@@ -19,6 +19,7 @@ TEST_CASE("create tree test"){
     CHECK_NOTHROW(x.addMother("ema", "masha"));
     CHECK_NOTHROW(x.addMother("masha", "ester"));
 
+
     CHECK_THROWS(x.addFather("avi", "dror"));
     CHECK_THROWS(x.addMother("mark", "rachel"));
     CHECK_THROWS(x.addFather("shay", "mark"));
@@ -98,6 +99,8 @@ TEST_CASE("find test"){
     CHECK(T3.find("father")==string("Itzik"));
     CHECK_THROWS(T3.find("great-great-grandmother"));
     CHECK_THROWS(T3.find("great-great-grandfather"));
+    CHECK_THROWS(T3.find("great-great-great-grandmother"));
+    CHECK_THROWS(T3.find("great-great-great-grandfather"));
     CHECK(T3.find("grandfather")==string("David"));
     CHECK(T3.find("grandmother")==string("Tzvia"));
 
@@ -114,6 +117,12 @@ TEST_CASE("remove test"){
     CHECK_NOTHROW(x3.addMother("ema", "masha"));
     CHECK_NOTHROW(x3.addMother("masha", "ester"));
 
+    CHECK_THROWS(x3.remove("ema"));
+    CHECK_THROWS(x3.remove("bela"));
+    CHECK_THROWS(x3.remove("ester"));
+    CHECK_THROWS(x3.remove(""));
+    CHECK_THROWS(x3.remove("boaz"));
+
     CHECK_NOTHROW(x3.remove("ester"));
     CHECK_NOTHROW(x3.remove("masha"));
     CHECK_NOTHROW(x3.remove("moshe"));
@@ -124,9 +133,6 @@ TEST_CASE("remove test"){
 
 
 
-    CHECK_THROWS(x3.remove("ester"));
-    CHECK_THROWS(x3.remove(""));
-    CHECK_THROWS(x3.remove("boaz"));
 //
     CHECK_NOTHROW(T4.addFather("Noa","Itzik"));
     CHECK_NOTHROW(T4.addMother("Noa","Tali"));
