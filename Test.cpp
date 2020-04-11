@@ -99,7 +99,7 @@ TEST_CASE("find test"){
     CHECK_THROWS(T3.find("great-great-grandmother"));
     CHECK_THROWS(T3.find("great-great-grandfather"));
     CHECK(T3.find("grandfather")==string("David"));
-    CHECK(T3.find("grandmother")==string("Tzvia") || T3.find("grandmother")==string("Hashiba") );
+    CHECK(T3.find("grandmother")==string("Tzvia"));
 
 }
 family::Tree x3("ortal");
@@ -134,6 +134,22 @@ TEST_CASE("remove test"){
     CHECK_THROWS(T4.remove("David"));
     CHECK_NOTHROW(T4.remove("Noa"));
     CHECK_THROWS(T4.remove("Itzik"));
+
+
+
+            CHECK_NOTHROW(T4.addFather("Noa","Itzik"));
+            CHECK_NOTHROW(T4.addMother("Noa","Tali"));
+            CHECK_NOTHROW(T4.addMother("Tali","Tzvia"));
+            CHECK_NOTHROW(T4.addFather("Tali","David"));
+            CHECK_NOTHROW(T4.addFather("Itzik","Nissim"));
+            CHECK_NOTHROW(T4.addMother("Itzik","Hashiba"));
+            CHECK_THROWS(T4.remove(""));
+            CHECK_THROWS(T4.remove("Niv"));
+            CHECK_THROWS(T4.remove("grandfather"));
+            CHECK_NOTHROW(T4.remove("Tali"));
+            CHECK_THROWS(T4.remove("David"));
+            CHECK_NOTHROW(T4.remove("Noa"));
+            CHECK_THROWS(T4.remove("Itzik"));
 
 
 
