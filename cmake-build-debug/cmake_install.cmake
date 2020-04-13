@@ -1,4 +1,4 @@
-# Install script for directory: /home/avi/CLionProjects/ancestor-tree-cpp
+# Install script for directory: /home/nivtal9/CLionProjects/ancestor-tree
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/avi/CLionProjects/ancestor-tree-cpp/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/nivtal9/CLionProjects/ancestor-tree/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

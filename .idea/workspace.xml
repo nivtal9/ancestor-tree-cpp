@@ -13,7 +13,32 @@
   <component name="ChangeListManager">
     <list default="true" id="f3f0aa56-333a-4014-9b5d-3e93e29f63a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Demo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyTree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyTree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyTree.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyTree.hpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCounter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TestCounter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ancestor_tree" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ancestor_tree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ancestor_tree.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ancestor_tree.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +83,7 @@
       <updated>1586628877971</updated>
       <workItem from="1586628880284" duration="4971000" />
       <workItem from="1586634327033" duration="6866000" />
+      <workItem from="1586800966851" duration="7347000" />
     </task>
     <servers />
   </component>
@@ -73,13 +99,68 @@
       <screen x="0" y="27" width="1850" height="887" />
     </state>
     <state x="658" y="219" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1850.887@0.27.1850.887" timestamp="1586629430851" />
+    <state width="517" height="506" key="DebuggerActiveHint" timestamp="1586808081225">
+      <screen x="0" y="27" width="1850" height="887" />
+    </state>
+    <state width="517" height="506" key="DebuggerActiveHint/0.27.1850.887@0.27.1850.887" timestamp="1586808081225" />
     <state x="482" y="169" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586634368923">
       <screen x="49" y="27" width="1311" height="741" />
     </state>
     <state x="482" y="169" width="424" height="484" key="FileChooserDialogImpl/49.27.1311.741@49.27.1311.741" timestamp="1586634368923" />
+    <state width="983" height="80" key="GridCell.Tab.0.bottom" timestamp="1586808326824">
+      <screen x="0" y="27" width="1850" height="887" />
+    </state>
+    <state width="983" height="80" key="GridCell.Tab.0.bottom/0.27.1850.887@0.27.1850.887" timestamp="1586808326824" />
+    <state width="983" height="80" key="GridCell.Tab.0.center" timestamp="1586808326824">
+      <screen x="0" y="27" width="1850" height="887" />
+    </state>
+    <state width="983" height="80" key="GridCell.Tab.0.center/0.27.1850.887@0.27.1850.887" timestamp="1586808326824" />
+    <state width="983" height="80" key="GridCell.Tab.0.left" timestamp="1586808326824">
+      <screen x="0" y="27" width="1850" height="887" />
+    </state>
+    <state width="983" height="80" key="GridCell.Tab.0.left/0.27.1850.887@0.27.1850.887" timestamp="1586808326824" />
+    <state width="983" height="80" key="GridCell.Tab.0.right" timestamp="1586808326824">
+      <screen x="0" y="27" width="1850" height="887" />
+    </state>
+    <state width="983" height="80" key="GridCell.Tab.0.right/0.27.1850.887@0.27.1850.887" timestamp="1586808326824" />
+    <state width="983" height="80" key="GridCell.Tab.1.bottom" timestamp="1586808326826">
+      <screen x="0" y="27" width="1850" height="887" />
+    </state>
+    <state width="983" height="80" key="GridCell.Tab.1.bottom/0.27.1850.887@0.27.1850.887" timestamp="1586808326826" />
+    <state width="983" height="80" key="GridCell.Tab.1.center" timestamp="1586808326825">
+      <screen x="0" y="27" width="1850" height="887" />
+    </state>
+    <state width="983" height="80" key="GridCell.Tab.1.center/0.27.1850.887@0.27.1850.887" timestamp="1586808326825" />
+    <state width="983" height="80" key="GridCell.Tab.1.left" timestamp="1586808326825">
+      <screen x="0" y="27" width="1850" height="887" />
+    </state>
+    <state width="983" height="80" key="GridCell.Tab.1.left/0.27.1850.887@0.27.1850.887" timestamp="1586808326825" />
+    <state width="983" height="80" key="GridCell.Tab.1.right" timestamp="1586808326825">
+      <screen x="0" y="27" width="1850" height="887" />
+    </state>
+    <state width="983" height="80" key="GridCell.Tab.1.right/0.27.1850.887@0.27.1850.887" timestamp="1586808326825" />
+    <state x="170" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1586800967913">
+      <screen x="0" y="27" width="1850" height="887" />
+    </state>
+    <state x="170" y="298" key="com.intellij.ide.util.TipDialog/0.27.1850.887@0.27.1850.887" timestamp="1586800967913" />
+    <state x="0" y="145" width="1092" height="658" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586803171340">
+      <screen x="0" y="27" width="1850" height="887" />
+    </state>
+    <state x="0" y="145" width="1092" height="658" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1850.887@0.27.1850.887" timestamp="1586803171340" />
     <state width="600" height="424" key="javadoc.popup" timestamp="1586642774657">
       <screen x="49" y="27" width="1311" height="741" />
     </state>
     <state width="600" height="424" key="javadoc.popup/49.27.1311.741@49.27.1311.741" timestamp="1586642774657" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Demo.cpp</url>
+          <line>13</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

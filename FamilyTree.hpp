@@ -10,13 +10,13 @@ using namespace std;
 
 class node{
 public:
-    string child;
+    string name;
     node *mother;
     node *father;
-    node(string Child){
-        (*this).child=Child;
-        (*this).mother=NULL;
-        (*this).father=NULL;
+    node(string name){
+        (*this).name=name;
+        (*this).mother= nullptr;
+        (*this).father= nullptr;
     }
 };
 namespace family{
@@ -26,13 +26,15 @@ namespace family{
         Tree(string Child){
             node r(Child);
             (*this).ChildRoot=&r;
+            //cout<<ChildRoot->name<<endl;
         }
         Tree& addFather(string ChildName,string FatherName);
         Tree& addMother(string ChildName,string MotherName);
         string relation(string name);
         string find(string relationStr);
-        string display();
+        void display(node *pNode);
         bool remove(string name);
+        node* search(node *root, string key);
     };
 }
 

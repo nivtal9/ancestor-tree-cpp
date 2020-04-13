@@ -6,7 +6,7 @@
 #include <iostream>
 
 using namespace std;
-
+/*
 family::Tree T("Niv");
 family::Tree x("avi");
 
@@ -151,3 +151,4 @@ TEST_CASE("remove test"){
 
 
 }
+*/
