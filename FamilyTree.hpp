@@ -31,11 +31,12 @@ namespace family{
         }
         Tree& addFather(string ChildName,string FatherName);
         Tree& addMother(string ChildName,string MotherName);
-        string relation(string name);
+        int relation(string name);
         string find(string relationStr);
         void display(node *pNode);
         bool remove(string name);
         node* search(node* t, string key);
+        node* search2(node* t, string key,int& relation );
     };
 }
 
