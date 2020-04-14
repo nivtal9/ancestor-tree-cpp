@@ -28,19 +28,19 @@ bool family::Tree::remove(string name) {
 }
 
 family::Tree &family::Tree::addFather(string ChildName, string FatherName) {
-    //Tree &root = *this;
-    node* nodeFound=search(this->ChildRoot,ChildName);
+   // node &root = *this->ChildRoot;
+    node * nodeFound=search(this->ChildRoot,ChildName);
     if(nodeFound==nullptr){
         throw runtime_error("unrelated");
     }
     else{
-        nodeFound->father=new node(FatherName);
+        nodeFound->father=new node( FatherName);
     }
     return *this;
 }
 
 family::Tree &family::Tree::addMother(string ChildName, string MotherName) {
-    node* nodeFound=search(ChildRoot,ChildName);
+    node* nodeFound=search(this->ChildRoot,ChildName);
     if(nodeFound==nullptr){
         throw runtime_error("unrelated");
     }
@@ -50,13 +50,25 @@ family::Tree &family::Tree::addMother(string ChildName, string MotherName) {
     return *this;
 }
 
-node *family::Tree::search(node *root, string key) {
-    cout<<root->name<<endl;
-    if ( root->name == key) {
-        return (node *) root;
+node *family::Tree::search(node *t, string key) {
+    if ( t->name == key) {
+        return t;
     } else {
-        search(root->mother,key);
-        search(root->father,key);
+
+        if(t->father != nullptr){
+            node* ans= search(t->father,key);
+            if(ans!= nullptr)
+                return ans;
+        }
+
+        if(t->mother != nullptr) {
+            node *ans2 = search(t->mother, key);
+            if (ans2 != nullptr)
+                return ans2;
+        }
     }
+
+
     return nullptr;
 }
+

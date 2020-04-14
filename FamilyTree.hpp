@@ -21,11 +21,12 @@ public:
 };
 namespace family{
     class Tree {
-        node *ChildRoot;
+
     public:
+        node *ChildRoot;
         Tree(string Child){
-            node r(Child);
-            (*this).ChildRoot=&r;
+           this->ChildRoot=new node(Child);
+            //(*this).ChildRoot=&r;
             //cout<<ChildRoot->name<<endl;
         }
         Tree& addFather(string ChildName,string FatherName);
@@ -34,7 +35,7 @@ namespace family{
         string find(string relationStr);
         void display(node *pNode);
         bool remove(string name);
-        node* search(node *root, string key);
+        node* search(node* t, string key);
     };
 }
 
