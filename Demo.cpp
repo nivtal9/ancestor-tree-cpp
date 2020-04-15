@@ -27,7 +27,7 @@ int main() {
 	cout << T.relation("Rivka") << endl;  // prints "grandmother"
 	cout << T.relation("Avraham") << endl;  // prints "great-grandfather"
 	cout << T.relation("Terah") << endl;  // prints "great-great-grandfather"
-/*	cout << T.relation("xyz") << endl;  // prints "unrelated"
+	//cout << T.relation("xyz") << endl;  // prints "unrelated"
 	cout << T.relation("Yosef") << endl;  // prints "me"
 
 	cout << T.find("mother") << endl;  // prints "Rachel"
@@ -38,8 +38,7 @@ int main() {
 	 	cout << ex.what() << endl;  // prints "The tree cannot handle the 'uncle' relation"
 	}
 
-	T.remove("Avraham"); // removes Avraham and Terah
+	//T.remove("Avraham"); // removes Avraham and Terah
 	cout << T.relation("Terah") << endl;  // prints "unrelated"
-*/
     return 0;
 }

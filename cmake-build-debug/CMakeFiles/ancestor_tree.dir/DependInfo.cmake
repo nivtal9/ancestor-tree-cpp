@@ -4,10 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/avi/CLionProjects/ancestor-tree-cpp/Demo.cpp" "/home/avi/CLionProjects/ancestor-tree-cpp/cmake-build-debug/CMakeFiles/ancestor_tree.dir/Demo.cpp.o"
-  "/home/avi/CLionProjects/ancestor-tree-cpp/FamilyTree.cpp" "/home/avi/CLionProjects/ancestor-tree-cpp/cmake-build-debug/CMakeFiles/ancestor_tree.dir/FamilyTree.cpp.o"
-  "/home/avi/CLionProjects/ancestor-tree-cpp/Test.cpp" "/home/avi/CLionProjects/ancestor-tree-cpp/cmake-build-debug/CMakeFiles/ancestor_tree.dir/Test.cpp.o"
-  "/home/avi/CLionProjects/ancestor-tree-cpp/TestCounter.cpp" "/home/avi/CLionProjects/ancestor-tree-cpp/cmake-build-debug/CMakeFiles/ancestor_tree.dir/TestCounter.cpp.o"
+  "/home/nivtal9/CLionProjects/ancestor-tree-cpp/Demo.cpp" "/home/nivtal9/CLionProjects/ancestor-tree-cpp/cmake-build-debug/CMakeFiles/ancestor_tree.dir/Demo.cpp.o"
+  "/home/nivtal9/CLionProjects/ancestor-tree-cpp/FamilyTree.cpp" "/home/nivtal9/CLionProjects/ancestor-tree-cpp/cmake-build-debug/CMakeFiles/ancestor_tree.dir/FamilyTree.cpp.o"
+  "/home/nivtal9/CLionProjects/ancestor-tree-cpp/Test.cpp" "/home/nivtal9/CLionProjects/ancestor-tree-cpp/cmake-build-debug/CMakeFiles/ancestor_tree.dir/Test.cpp.o"
+  "/home/nivtal9/CLionProjects/ancestor-tree-cpp/TestCounter.cpp" "/home/nivtal9/CLionProjects/ancestor-tree-cpp/cmake-build-debug/CMakeFiles/ancestor_tree.dir/TestCounter.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
