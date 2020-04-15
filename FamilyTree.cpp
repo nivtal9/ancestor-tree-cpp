@@ -52,6 +52,7 @@ string family::Tree::relation(string name) {
 }
 
 string family::Tree::find(string relationStr) {
+    int x=2;
     if (relationStr == "me") {
         return this->ChildRoot->name;
     }
@@ -63,12 +64,11 @@ string family::Tree::find(string relationStr) {
     }
     label:
     if(relationStr=="grandmother"){
-        return find_search(this->ChildRoot,2,1)->name;
+        return find_search(this->ChildRoot,x,1)->name;
     }
     if(relationStr=="grandfather"){
-        return find_search(this->ChildRoot,2,0)->name;
+        return find_search(this->ChildRoot,x,0)->name;
     }
-    int x=2;
     while (relationStr != "grandfather" && relationStr != "grandmother") {
         if (relationStr.substr(0, 6) == "great-") {
             x++;
@@ -116,12 +116,22 @@ void family::Tree::display(node *pNode) {
 }
 
 bool family::Tree::remove(string name) {
-    return false;
+    if(name==ChildRoot->name){
+        throw runtime_error("you cannot remove the root of the tree");
+    }
+    node *t=add_remove_search(this->ChildRoot,name);
+    if(t!= nullptr){
+        
+    }
+    else{
+        return false;
+    }
+    return true;
 }
 
 family::Tree &family::Tree::addFather(string ChildName, string FatherName) {
 
-    node * nodeFound= add_search(this->ChildRoot, ChildName);
+    node * nodeFound= add_remove_search(this->ChildRoot, ChildName);
     if(nodeFound==nullptr){
         throw runtime_error("unrelated");
     }
@@ -132,7 +142,7 @@ family::Tree &family::Tree::addFather(string ChildName, string FatherName) {
 }
 
 family::Tree &family::Tree::addMother(string ChildName, string MotherName) {
-    node* nodeFound= add_search(this->ChildRoot, ChildName);
+    node* nodeFound= add_remove_search(this->ChildRoot, ChildName);
     if(nodeFound==nullptr){
         throw runtime_error("unrelated");
     }
@@ -142,19 +152,19 @@ family::Tree &family::Tree::addMother(string ChildName, string MotherName) {
     return *this;
 }
 
-node *family::Tree::add_search(node *t, string key) {
+node *family::Tree::add_remove_search(node *t, string key) {
     if ( t->name == key) {
         return t;
     } else {
 
         if(t->father != nullptr){
-            node* ans= add_search(t->father, key);
+            node* ans= add_remove_search(t->father, key);
             if(ans!= nullptr)
                 return ans;
         }
 
         if(t->mother != nullptr) {
-            node *ans2 = add_search(t->mother, key);
+            node *ans2 = add_remove_search(t->mother, key);
             if (ans2 != nullptr)
                 return ans2;
         }
@@ -198,19 +208,30 @@ node *family::Tree::find_search(node *t, int relation, int gender) {
         return t;
     } else {
         if(t->father != nullptr){
-            relation--;
-            node* ans= find_search(t->father, relation, gender);
-            if(ans!= nullptr)
-                return ans;
-            else relation++;
+            if(relation>1) {
+                relation--;
+                node *ans = find_search(t->father, relation, gender);
+                if (ans != nullptr)
+                    return ans;
+                //else relation++;
+            }
+            if(gender==0&&relation==1){
+                relation--;
+                node *ans = find_search(t->father, relation, gender);
+                if (ans != nullptr)
+                    return ans;
+            }
+            else{
+                goto label;
+            }
         }
-
+        label :
         if(t->mother != nullptr) {
             relation--;
             node *ans2 = find_search(t->mother, relation, gender);
             if (ans2 != nullptr)
                 return ans2;
-            else relation++;
+            //else relation++;
         }
     }
     return nullptr;
