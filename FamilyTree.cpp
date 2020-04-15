@@ -3,6 +3,7 @@
 //
 
 #include "FamilyTree.hpp"
+#include <queue>
 using namespace std;
 string family::Tree::relation(string name) {
     int x=0;
@@ -46,7 +47,7 @@ string family::Tree::relation(string name) {
         }
     }
     else{
-        throw runtime_error("unrelated");
+        return "unrelated";
     }
     return ans;
 }
@@ -80,39 +81,38 @@ string family::Tree::find(string relationStr) {
     goto label;
 }
 
-void family::Tree::display(node *pNode) {
-    // cout <<  "This is InOrder printing of the Tree: \n" << endl;
-    if(pNode== nullptr) {
-        cout << "the name of the root is :"<< ChildRoot->name << endl;
-        string child=ChildRoot->name;
-        if (this->ChildRoot->mother != nullptr) {
-            display(ChildRoot->mother);
-            cout << child << " mom is:  " << ChildRoot->mother->name << endl;
+//we took the code from:https://www.geeksforgeeks.org/print-level-order-traversal-line-line/
+void family::Tree::display(node *root) {
+    // Base Case
+    if (this->ChildRoot == NULL) return;
 
+    // Create an empty queue for level order tarversal
+    queue<node *> q;
+
+    // Enqueue Root and initialize height
+    q.push(this->ChildRoot);
+
+    while (q.empty() == false)
+    {
+        // nodeCount (queue size) indicates number
+        // of nodes at current lelvel.
+        int nodeCount = q.size();
+
+        // Dequeue all nodes of current level and
+        // Enqueue all nodes of next level
+        while (nodeCount > 0)
+        {
+            node *node = q.front();
+            cout << node->name << " ";
+            q.pop();
+            if (node->mother != NULL)
+                q.push(node->mother);
+            if (node->father != NULL)
+                q.push(node->father);
+            nodeCount--;
         }
-        if (this->ChildRoot->father != nullptr) {
-            display(ChildRoot->father);
-            cout << child << " dad is:  " << ChildRoot->father->name << endl;
-        }
+        cout << endl;
     }
-    else{
-        if (pNode->mother != nullptr) {
-            display(pNode->mother);
-            cout << pNode->name << endl;
-
-        }
-        if (pNode->father != nullptr) {
-            display(pNode->father);
-            cout << pNode->name << endl;
-        }
-
-    }
-
-
-
-    //display(ChildRoot->mother);
-    //cout << ChildRoot->name << endl;
-   // display(ChildRoot->father);
 }
 
 bool family::Tree::remove(string name) {
@@ -121,7 +121,7 @@ bool family::Tree::remove(string name) {
     }
     node *t=add_remove_search(this->ChildRoot,name);
     if(t!= nullptr){
-        
+        deleteTree(&t);
     }
     else{
         return false;
@@ -235,5 +235,26 @@ node *family::Tree::find_search(node *t, int relation, int gender) {
         }
     }
     return nullptr;
+}
+
+//we took the code to _deleteTree and deleteTree from:https://www.geeksforgeeks.org/write-a-c-program-to-delete-a-tree/
+void family::Tree::_deleteTree(node *node)
+{
+    if (node == NULL) return;
+
+    /* first delete both subtrees */
+    _deleteTree(node->mother);
+    _deleteTree(node->father);
+
+    /* then delete the node */
+    cout << "Deleting node: " << node->name << endl;
+    free(node);
+}
+
+/* Deletes a tree and sets the root as NULL */
+void family::Tree::deleteTree(node **node_ref)
+{
+    _deleteTree(*node_ref);
+    *node_ref = NULL;
 }
 

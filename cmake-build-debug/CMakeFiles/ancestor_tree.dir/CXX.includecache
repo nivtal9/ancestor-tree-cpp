@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/nivtal9/CLionProjects/ancestor-tree-cpp/FamilyTree.cpp
+/home/nivtal9/CLionProjects/ancestor-tree-cpp/Demo.cpp
 FamilyTree.hpp
 /home/nivtal9/CLionProjects/ancestor-tree-cpp/FamilyTree.hpp
+iostream
+-
 
 /home/nivtal9/CLionProjects/ancestor-tree-cpp/FamilyTree.hpp
 iostream

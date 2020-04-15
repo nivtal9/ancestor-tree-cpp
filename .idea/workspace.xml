@@ -13,8 +13,10 @@
   <component name="ChangeListManager">
     <list default="true" id="f3f0aa56-333a-4014-9b5d-3e93e29f63a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Demo.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyTree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyTree.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FamilyTree.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyTree.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/CXX.includecache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/ancestor_tree" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ancestor_tree" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +66,7 @@
       <workItem from="1586860366359" duration="1394000" />
       <workItem from="1586863483968" duration="7404000" />
       <workItem from="1586895537961" duration="9667000" />
-      <workItem from="1586968136034" duration="1533000" />
+      <workItem from="1586968136034" duration="5192000" />
     </task>
     <servers />
   </component>
@@ -89,25 +91,25 @@
       <screen x="49" y="27" width="1311" height="741" />
     </state>
     <state x="482" y="169" width="424" height="484" key="FileChooserDialogImpl/49.27.1311.741@49.27.1311.741" timestamp="1586634368923" />
-    <state width="1804" height="189" key="GridCell.Tab.0.bottom" timestamp="1586969659506">
+    <state width="1804" height="221" key="GridCell.Tab.0.bottom" timestamp="1586975194890">
       <screen x="0" y="27" width="1850" height="887" />
     </state>
-    <state width="1804" height="189" key="GridCell.Tab.0.bottom/0.27.1850.887@0.27.1850.887" timestamp="1586969659506" />
+    <state width="1804" height="221" key="GridCell.Tab.0.bottom/0.27.1850.887@0.27.1850.887" timestamp="1586975194890" />
     <state width="1265" height="140" key="GridCell.Tab.0.bottom/49.27.1311.741@49.27.1311.741" timestamp="1586879086858" />
-    <state width="1804" height="189" key="GridCell.Tab.0.center" timestamp="1586969659505">
+    <state width="1804" height="221" key="GridCell.Tab.0.center" timestamp="1586975194889">
       <screen x="0" y="27" width="1850" height="887" />
     </state>
-    <state width="1804" height="189" key="GridCell.Tab.0.center/0.27.1850.887@0.27.1850.887" timestamp="1586969659505" />
+    <state width="1804" height="221" key="GridCell.Tab.0.center/0.27.1850.887@0.27.1850.887" timestamp="1586975194889" />
     <state width="1265" height="140" key="GridCell.Tab.0.center/49.27.1311.741@49.27.1311.741" timestamp="1586879086855" />
-    <state width="1804" height="189" key="GridCell.Tab.0.left" timestamp="1586969659504">
+    <state width="1804" height="221" key="GridCell.Tab.0.left" timestamp="1586975194888">
       <screen x="0" y="27" width="1850" height="887" />
     </state>
-    <state width="1804" height="189" key="GridCell.Tab.0.left/0.27.1850.887@0.27.1850.887" timestamp="1586969659504" />
+    <state width="1804" height="221" key="GridCell.Tab.0.left/0.27.1850.887@0.27.1850.887" timestamp="1586975194888" />
     <state width="1265" height="140" key="GridCell.Tab.0.left/49.27.1311.741@49.27.1311.741" timestamp="1586879086853" />
-    <state width="1804" height="189" key="GridCell.Tab.0.right" timestamp="1586969659506">
+    <state width="1804" height="221" key="GridCell.Tab.0.right" timestamp="1586975194889">
       <screen x="0" y="27" width="1850" height="887" />
     </state>
-    <state width="1804" height="189" key="GridCell.Tab.0.right/0.27.1850.887@0.27.1850.887" timestamp="1586969659506" />
+    <state width="1804" height="221" key="GridCell.Tab.0.right/0.27.1850.887@0.27.1850.887" timestamp="1586975194889" />
     <state width="1265" height="140" key="GridCell.Tab.0.right/49.27.1311.741@49.27.1311.741" timestamp="1586879086856" />
     <state width="1804" height="189" key="GridCell.Tab.1.bottom" timestamp="1586969659508">
       <screen x="0" y="27" width="1850" height="887" />
@@ -151,8 +153,8 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
           <url>file://$PROJECT_DIR$/Demo.cpp</url>
-          <line>32</line>
-          <option name="timeStamp" value="22" />
+          <line>40</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

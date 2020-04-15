@@ -38,6 +38,8 @@ namespace family{
         node* add_remove_search(node* t, string key);
         node* relation_search(node* t, string key, int& relation, int &gender);
         node* find_search(node* t, int relation, int gender);
+        void deleteTree(node** node_ref);
+        void _deleteTree(node* node);
     };
 }
 
