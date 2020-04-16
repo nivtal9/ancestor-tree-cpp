@@ -280,13 +280,14 @@ node *family::Tree::find_search(node *t, int relation, int gender) {
                 node *ans = find_search(t->father, relation, gender);
                 if (ans != nullptr)
                     return ans;
-                //else relation++;
+                else return nullptr;
             }
             if(gender==0&&relation==1){
                 relation--;
                 node *ans = find_search(t->father, relation, gender);
                 if (ans != nullptr)
                     return ans;
+                else return nullptr;
             }
             else{
                 goto label;
@@ -298,7 +299,7 @@ node *family::Tree::find_search(node *t, int relation, int gender) {
             node *ans2 = find_search(t->mother, relation, gender);
             if (ans2 != nullptr)
                 return ans2;
-            //else relation++;
+            else return nullptr;
         }
     }
     return nullptr;
