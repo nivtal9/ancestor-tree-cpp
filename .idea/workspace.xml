@@ -14,10 +14,7 @@
     <list default="true" id="f3f0aa56-333a-4014-9b5d-3e93e29f63a4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Demo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Demo.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyTree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyTree.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FamilyTree.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyTree.hpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ancestor_tree" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ancestor_tree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCounter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/TestCounter.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +64,7 @@
       <workItem from="1586863483968" duration="7404000" />
       <workItem from="1586895537961" duration="9667000" />
       <workItem from="1586968136034" duration="5192000" />
+      <workItem from="1587040050800" duration="246000" />
     </task>
     <servers />
   </component>
@@ -147,16 +145,5 @@
       <screen x="49" y="27" width="1311" height="741" />
     </state>
     <state x="367" y="89" width="672" height="678" key="search.everywhere.popup/49.27.1311.741@49.27.1311.741" timestamp="1586876901706" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Demo.cpp</url>
-          <line>40</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
