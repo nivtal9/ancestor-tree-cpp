@@ -126,7 +126,6 @@ void family::Tree::display() {
         while (nodeCount > 0)
         {
             node *node = q.front();
-
             //gender == 0 means father
 //gender == 1 means mother
             int gender=0;
@@ -299,7 +298,7 @@ node *family::Tree::find_search(node *t, int relation, int gender) {
         if(t->mother != nullptr) {
             relation--;
             node *ans2 = find_search(t->mother, relation, gender);
-            if (ans2 != nullptr)
+            if (ans2 != nullptr )
                 return ans2;
             else return nullptr;
         }
@@ -318,9 +317,9 @@ void family::Tree::_deleteTree(node *node)
 
     /* then delete the node */
     cout << "Deleting node: " << node->name << endl;
-    // free(node->mother);
-    //  free(node->father);
-    free(node);
+      //free(node->mother);
+      //free(node->father);
+    delete(node);
 }
 
 /* Deletes a tree and sets the root as NULL */
