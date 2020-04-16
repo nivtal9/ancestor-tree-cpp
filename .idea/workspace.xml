@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="ancestor_tree" targetName="ancestor_tree" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f3f0aa56-333a-4014-9b5d-3e93e29f63a4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Demo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyTree.o" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyTree.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestCounter.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Progress/count.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/Demo.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/Demo.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/FamilyTree.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/FamilyTree.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/Test.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/Test.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/TestCounter.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/TestCounter.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1aPEYi2bQ49ZWREw0YTZYimvqhq" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ancestor_tree" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ancestor_tree" TARGET_NAME="ancestor_tree" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ancestor_tree" RUN_TARGET_NAME="ancestor_tree">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f3f0aa56-333a-4014-9b5d-3e93e29f63a4" name="Default Changelist" comment="" />
+      <created>1586628877971</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586628877971</updated>
+      <workItem from="1586628880284" duration="4971000" />
+      <workItem from="1586634327033" duration="6866000" />
+      <workItem from="1586800966851" duration="7347000" />
+      <workItem from="1586860366359" duration="1394000" />
+      <workItem from="1586863483968" duration="7404000" />
+      <workItem from="1586895537961" duration="9667000" />
+      <workItem from="1586968136034" duration="5192000" />
+      <workItem from="1586986559657" duration="5100000" />
+      <workItem from="1587038844912" duration="1759000" />
+      <workItem from="1587045183672" duration="581000" />
+      <workItem from="1587045916052" duration="95000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="411" y="201" width="577" height="390" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586646102020">
+      <screen x="49" y="27" width="1311" height="741" />
+    </state>
+    <state x="411" y="201" width="577" height="390" key="#com.intellij.fileTypes.FileTypeChooser/49.27.1311.741@49.27.1311.741" timestamp="1586646102020" />
+    <state x="658" y="219" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1586629430851">
+      <screen x="0" y="27" width="1850" height="887" />
+    </state>
+    <state x="658" y="219" width="524" height="509" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1850.887@0.27.1850.887" timestamp="1586629430851" />
+    <state width="508" height="423" key="DebuggerActiveHint" timestamp="1586857809379">
+      <screen x="49" y="27" width="1311" height="741" />
+    </state>
+    <state width="517" height="506" key="DebuggerActiveHint/0.27.1850.887@0.27.1850.887" timestamp="1586808081225" />
+    <state width="508" height="423" key="DebuggerActiveHint/49.27.1311.741@49.27.1311.741" timestamp="1586857809379" />
+    <state x="482" y="169" width="424" height="484" key="FileChooserDialogImpl" timestamp="1586634368923">
+      <screen x="49" y="27" width="1311" height="741" />
+    </state>
+    <state x="482" y="169" width="424" height="484" key="FileChooserDialogImpl/49.27.1311.741@49.27.1311.741" timestamp="1586634368923" />
+    <state width="1265" height="216" key="GridCell.Tab.0.bottom" timestamp="1586991686835">
+      <screen x="49" y="27" width="1311" height="741" />
+    </state>
+    <state width="1804" height="221" key="GridCell.Tab.0.bottom/0.27.1850.887@0.27.1850.887" timestamp="1586975194890" />
+    <state width="1265" height="216" key="GridCell.Tab.0.bottom/49.27.1311.741@49.27.1311.741" timestamp="1586991686835" />
+    <state width="1265" height="216" key="GridCell.Tab.0.center" timestamp="1586991686833">
+      <screen x="49" y="27" width="1311" height="741" />
+    </state>
+    <state width="1804" height="221" key="GridCell.Tab.0.center/0.27.1850.887@0.27.1850.887" timestamp="1586975194889" />
+    <state width="1265" height="216" key="GridCell.Tab.0.center/49.27.1311.741@49.27.1311.741" timestamp="1586991686833" />
+    <state width="1265" height="216" key="GridCell.Tab.0.left" timestamp="1586991686833">
+      <screen x="49" y="27" width="1311" height="741" />
+    </state>
+    <state width="1804" height="221" key="GridCell.Tab.0.left/0.27.1850.887@0.27.1850.887" timestamp="1586975194888" />
+    <state width="1265" height="216" key="GridCell.Tab.0.left/49.27.1311.741@49.27.1311.741" timestamp="1586991686833" />
+    <state width="1265" height="216" key="GridCell.Tab.0.right" timestamp="1586991686834">
+      <screen x="49" y="27" width="1311" height="741" />
+    </state>
+    <state width="1804" height="221" key="GridCell.Tab.0.right/0.27.1850.887@0.27.1850.887" timestamp="1586975194889" />
+    <state width="1265" height="216" key="GridCell.Tab.0.right/49.27.1311.741@49.27.1311.741" timestamp="1586991686834" />
+    <state width="1265" height="216" key="GridCell.Tab.1.bottom" timestamp="1586991686839">
+      <screen x="49" y="27" width="1311" height="741" />
+    </state>
+    <state width="1804" height="189" key="GridCell.Tab.1.bottom/0.27.1850.887@0.27.1850.887" timestamp="1586969659508" />
+    <state width="1265" height="216" key="GridCell.Tab.1.bottom/49.27.1311.741@49.27.1311.741" timestamp="1586991686839" />
+    <state width="1265" height="216" key="GridCell.Tab.1.center" timestamp="1586991686836">
+      <screen x="49" y="27" width="1311" height="741" />
+    </state>
+    <state width="1804" height="189" key="GridCell.Tab.1.center/0.27.1850.887@0.27.1850.887" timestamp="1586969659507" />
+    <state width="1265" height="216" key="GridCell.Tab.1.center/49.27.1311.741@49.27.1311.741" timestamp="1586991686836" />
+    <state width="1265" height="216" key="GridCell.Tab.1.left" timestamp="1586991686835">
+      <screen x="49" y="27" width="1311" height="741" />
+    </state>
+    <state width="1804" height="189" key="GridCell.Tab.1.left/0.27.1850.887@0.27.1850.887" timestamp="1586969659507" />
+    <state width="1265" height="216" key="GridCell.Tab.1.left/49.27.1311.741@49.27.1311.741" timestamp="1586991686835" />
+    <state width="1265" height="216" key="GridCell.Tab.1.right" timestamp="1586991686836">
+      <screen x="49" y="27" width="1311" height="741" />
+    </state>
+    <state width="1804" height="189" key="GridCell.Tab.1.right/0.27.1850.887@0.27.1850.887" timestamp="1586969659508" />
+    <state width="1265" height="216" key="GridCell.Tab.1.right/49.27.1311.741@49.27.1311.741" timestamp="1586991686836" />
+    <state x="170" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1586800967913">
+      <screen x="0" y="27" width="1850" height="887" />
+    </state>
+    <state x="170" y="298" key="com.intellij.ide.util.TipDialog/0.27.1850.887@0.27.1850.887" timestamp="1586800967913" />
+    <state x="0" y="145" width="1092" height="658" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1586803171340">
+      <screen x="0" y="27" width="1850" height="887" />
+    </state>
+    <state x="0" y="145" width="1092" height="658" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.27.1850.887@0.27.1850.887" timestamp="1586803171340" />
+    <state width="600" height="424" key="javadoc.popup" timestamp="1586642774657">
+      <screen x="49" y="27" width="1311" height="741" />
+    </state>
+    <state width="600" height="424" key="javadoc.popup/49.27.1311.741@49.27.1311.741" timestamp="1586642774657" />
+    <state x="367" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1586876901706">
+      <screen x="49" y="27" width="1311" height="741" />
+    </state>
+    <state x="367" y="89" width="672" height="678" key="search.everywhere.popup/49.27.1311.741@49.27.1311.741" timestamp="1586876901706" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Demo.cpp</url>
+          <line>41</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/FamilyTree.cpp</url>
+          <line>85</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
