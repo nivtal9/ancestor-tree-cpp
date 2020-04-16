@@ -36,4 +36,4 @@ solution*
 demo
 test
 
-cmake-build-debug
+dir_to_ignore/cmake-build-debug
