@@ -12,15 +12,13 @@ using namespace std;
 
 int main() {
 	family::Tree T ("Yosef"); // Yosef is the "root" of the tree (the youngest person).
-	//cout << T.ChildRoot->name <<endl;
 	T.addFather("Yosef", "Yaakov")   // Tells the tree that the father of Yosef is Yaakov.
 	 .addMother("Yosef", "Rachel")   // Tells the tree that the mother of Yosef is Rachel.
 	 .addFather("Yaakov", "Isaac")
 	 .addMother("Yaakov", "Rivka")
 	 .addFather("Isaac", "Avraham")
 	 .addFather("Avraham", "Terah");
-
-    T.display(nullptr);                        // displays the tree in a human-friendly format.
+	T.display();                        // displays the tree in a human-friendly format.
 
 	cout << T.relation("Yaakov") << endl;  // prints "father"
 	cout << T.relation("Rachel") << endl;  // prints "mother"
@@ -32,6 +30,7 @@ int main() {
 
 	cout << T.find("mother") << endl;  // prints "Rachel"
 	cout << T.find("great-great-grandfather") << endl;  // prints "Terah"
+	
 	try {
 		cout << T.find("uncle") << endl;  // throws an exception
 	} catch (const exception& ex) {
@@ -40,7 +39,6 @@ int main() {
 
 	T.remove("Avraham"); // removes Avraham and Terah
 	cout << T.relation("Terah") << endl;  // prints "unrelated"
-
 
     return 0;
 }

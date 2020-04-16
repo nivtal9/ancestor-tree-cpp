@@ -1,3 +1,3 @@
-/home/avi/CLionProjects/ancestor-tree-cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/avi/CLionProjects/ancestor-tree-cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/avi/CLionProjects/ancestor-tree-cpp/cmake-build-debug/CMakeFiles/ancestor_tree.dir
+/home/nivtal9/CLionProjects/ancestor-tree-cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/nivtal9/CLionProjects/ancestor-tree-cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/nivtal9/CLionProjects/ancestor-tree-cpp/cmake-build-debug/CMakeFiles/ancestor_tree.dir
