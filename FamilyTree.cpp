@@ -82,7 +82,7 @@ string family::Tree::find(string relationStr) {
 }
 
 //we took the code from:https://www.geeksforgeeks.org/print-level-order-traversal-line-line/
-void family::Tree::display(node *root) {
+void family::Tree::display() {
     // Base Case
     if (this->ChildRoot == NULL) return;
 
