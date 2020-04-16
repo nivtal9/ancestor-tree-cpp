@@ -6,12 +6,6 @@
 
 #IncludeRegexTransform: 
 
-/home/nivtal9/CLionProjects/ancestor-tree-cpp/Demo.cpp
-FamilyTree.hpp
-/home/nivtal9/CLionProjects/ancestor-tree-cpp/FamilyTree.hpp
-iostream
--
-
 /home/nivtal9/CLionProjects/ancestor-tree-cpp/FamilyTree.cpp
 FamilyTree.hpp
 /home/nivtal9/CLionProjects/ancestor-tree-cpp/FamilyTree.hpp
@@ -27,12 +21,8 @@ doctest.h
 /home/nivtal9/CLionProjects/ancestor-tree-cpp/doctest.h
 FamilyTree.hpp
 /home/nivtal9/CLionProjects/ancestor-tree-cpp/FamilyTree.hpp
-iostream
+string
 -
-
-/home/nivtal9/CLionProjects/ancestor-tree-cpp/TestCounter.cpp
-doctest.h
-/home/nivtal9/CLionProjects/ancestor-tree-cpp/doctest.h
 
 /home/nivtal9/CLionProjects/ancestor-tree-cpp/doctest.h
 iosfwd

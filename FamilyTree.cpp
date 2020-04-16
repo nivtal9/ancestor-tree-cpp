@@ -47,7 +47,7 @@ string family::Tree::relation(string name) {
         }
     }
     else{
-        throw runtime_error ("unrelated");
+        return ("unrelated");
     }
     return ans;
 }
