@@ -158,6 +158,7 @@ bool family::Tree::remove(string name) {
         deleteTree(&t);
     }
     else{
+        throw runtime_error("name not found");
         return false;
     }
     return true;
@@ -170,7 +171,12 @@ family::Tree &family::Tree::addFather(string ChildName, string FatherName) {
         throw runtime_error("unrelated");
     }
     else{
-        nodeFound->father=new node( FatherName);
+        if(nodeFound->father!=nullptr){
+            throw runtime_error("Father already exict!");
+        }
+        else {
+            nodeFound->father = new node(FatherName);
+        }
     }
     return *this;
 }
@@ -181,7 +187,12 @@ family::Tree &family::Tree::addMother(string ChildName, string MotherName) {
         throw runtime_error("unrelated");
     }
     else{
-        nodeFound->mother=new node(MotherName);
+        if(nodeFound->mother!=nullptr){
+            throw runtime_error("mother already exict!");
+        }
+        else {
+            nodeFound->mother = new node(MotherName);
+        }
     }
     return *this;
 }
