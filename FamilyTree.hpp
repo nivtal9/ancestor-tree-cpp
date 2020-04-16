@@ -33,7 +33,7 @@ namespace family{
         Tree& addMother(string ChildName,string MotherName);
         string relation(string name);
         string find(string relationStr);
-        void display(node *pNode);
+        void display();
         bool remove(string name);
         node* add_remove_search(node* t, string key);
         node* relation_search(node* t, string key, int& relation, int &gender);
