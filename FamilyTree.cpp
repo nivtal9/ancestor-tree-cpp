@@ -92,6 +92,7 @@ void family::Tree::display(node *root) {
     // Enqueue Root and initialize height
     q.push(this->ChildRoot);
 
+    string name="";
     while (q.empty() == false)
     {
         // nodeCount (queue size) indicates number
@@ -103,13 +104,46 @@ void family::Tree::display(node *root) {
         while (nodeCount > 0)
         {
             node *node = q.front();
-            cout << node->name << " ";
+
+            //gender == 0 means father
+//gender == 1 means mother
+            int gender=0;
+            int relation=0;
+            string x="grandfather";
+            string y="grandmother";
+            relation_search(this->ChildRoot,node->name,relation,gender);
+            if(relation==0){
+                cout << "the name is  :" <<node->name << " "<<endl;
+            }
+            else if(relation==1 && gender==0){
+                cout << "the father is  :" <<node->name << " "<<endl;
+            }
+            else if(relation==1 && gender==1){
+                cout << "the mother is  :" <<node->name << " "<<endl;
+            }
+            else{
+            for (int i = 1; i <relation-1 ; ++i) {
+                if(gender==0){
+                    x="great-"+x;
+                }
+                else{
+                    y="great-"+y;
+                }
+
+            }
+            if(gender==0)
+                  cout << "the "<<x << " from " <<name<<" side "<<" is  :" <<node->name <<endl;
+            else
+                cout << "the "<<y << " from " <<name<<" side "<<" is  :" <<node->name <<endl;
+            }
             q.pop();
             if (node->mother != NULL)
                 q.push(node->mother);
             if (node->father != NULL)
                 q.push(node->father);
             nodeCount--;
+            if( nodeCount==0)
+            name=node->name;
         }
         cout << endl;
     }
@@ -248,6 +282,8 @@ void family::Tree::_deleteTree(node *node)
 
     /* then delete the node */
     cout << "Deleting node: " << node->name << endl;
+    free(node->mother);
+    free(node->father);
     free(node);
 }
 
