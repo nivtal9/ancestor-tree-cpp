@@ -12,43 +12,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f3f0aa56-333a-4014-9b5d-3e93e29f63a4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.16.5/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/CXX.includecache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/Demo.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/FamilyTree.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/Test.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/TestCounter.cpp.o" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/depend.internal" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ancestor_tree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ancestor_tree.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/CXX.includecache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/depend.internal" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/ancestor_tree" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Demo.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Demo.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FamilyTree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/FamilyTree.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ancestor_tree.dir/depend.make" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +28,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -126,45 +97,45 @@
       <screen x="49" y="27" width="1311" height="741" />
     </state>
     <state x="482" y="169" width="424" height="484" key="FileChooserDialogImpl/49.27.1311.741@49.27.1311.741" timestamp="1586634368923" />
-    <state width="1804" height="221" key="GridCell.Tab.0.bottom" timestamp="1587051452424">
+    <state width="1804" height="221" key="GridCell.Tab.0.bottom" timestamp="1587058038268">
       <screen x="0" y="27" width="1850" height="887" />
     </state>
-    <state width="1804" height="221" key="GridCell.Tab.0.bottom/0.27.1850.887@0.27.1850.887" timestamp="1587051452424" />
+    <state width="1804" height="221" key="GridCell.Tab.0.bottom/0.27.1850.887@0.27.1850.887" timestamp="1587058038268" />
     <state width="1265" height="216" key="GridCell.Tab.0.bottom/49.27.1311.741@49.27.1311.741" timestamp="1586991686835" />
-    <state width="1804" height="221" key="GridCell.Tab.0.center" timestamp="1587051452423">
+    <state width="1804" height="221" key="GridCell.Tab.0.center" timestamp="1587058038267">
       <screen x="0" y="27" width="1850" height="887" />
     </state>
-    <state width="1804" height="221" key="GridCell.Tab.0.center/0.27.1850.887@0.27.1850.887" timestamp="1587051452423" />
+    <state width="1804" height="221" key="GridCell.Tab.0.center/0.27.1850.887@0.27.1850.887" timestamp="1587058038267" />
     <state width="1265" height="216" key="GridCell.Tab.0.center/49.27.1311.741@49.27.1311.741" timestamp="1586991686833" />
-    <state width="1804" height="221" key="GridCell.Tab.0.left" timestamp="1587051452423">
+    <state width="1804" height="221" key="GridCell.Tab.0.left" timestamp="1587058038267">
       <screen x="0" y="27" width="1850" height="887" />
     </state>
-    <state width="1804" height="221" key="GridCell.Tab.0.left/0.27.1850.887@0.27.1850.887" timestamp="1587051452423" />
+    <state width="1804" height="221" key="GridCell.Tab.0.left/0.27.1850.887@0.27.1850.887" timestamp="1587058038267" />
     <state width="1265" height="216" key="GridCell.Tab.0.left/49.27.1311.741@49.27.1311.741" timestamp="1586991686833" />
-    <state width="1804" height="221" key="GridCell.Tab.0.right" timestamp="1587051452423">
+    <state width="1804" height="221" key="GridCell.Tab.0.right" timestamp="1587058038268">
       <screen x="0" y="27" width="1850" height="887" />
     </state>
-    <state width="1804" height="221" key="GridCell.Tab.0.right/0.27.1850.887@0.27.1850.887" timestamp="1587051452423" />
+    <state width="1804" height="221" key="GridCell.Tab.0.right/0.27.1850.887@0.27.1850.887" timestamp="1587058038268" />
     <state width="1265" height="216" key="GridCell.Tab.0.right/49.27.1311.741@49.27.1311.741" timestamp="1586991686834" />
-    <state width="1804" height="274" key="GridCell.Tab.1.bottom" timestamp="1587051450687">
+    <state width="1804" height="274" key="GridCell.Tab.1.bottom" timestamp="1587058035812">
       <screen x="0" y="27" width="1850" height="887" />
     </state>
-    <state width="1804" height="274" key="GridCell.Tab.1.bottom/0.27.1850.887@0.27.1850.887" timestamp="1587051450687" />
+    <state width="1804" height="274" key="GridCell.Tab.1.bottom/0.27.1850.887@0.27.1850.887" timestamp="1587058035812" />
     <state width="1265" height="216" key="GridCell.Tab.1.bottom/49.27.1311.741@49.27.1311.741" timestamp="1586991686839" />
-    <state width="1804" height="274" key="GridCell.Tab.1.center" timestamp="1587051450685">
+    <state width="1804" height="274" key="GridCell.Tab.1.center" timestamp="1587058035811">
       <screen x="0" y="27" width="1850" height="887" />
     </state>
-    <state width="1804" height="274" key="GridCell.Tab.1.center/0.27.1850.887@0.27.1850.887" timestamp="1587051450685" />
+    <state width="1804" height="274" key="GridCell.Tab.1.center/0.27.1850.887@0.27.1850.887" timestamp="1587058035811" />
     <state width="1265" height="216" key="GridCell.Tab.1.center/49.27.1311.741@49.27.1311.741" timestamp="1586991686836" />
-    <state width="1804" height="274" key="GridCell.Tab.1.left" timestamp="1587051450684">
+    <state width="1804" height="274" key="GridCell.Tab.1.left" timestamp="1587058035811">
       <screen x="0" y="27" width="1850" height="887" />
     </state>
-    <state width="1804" height="274" key="GridCell.Tab.1.left/0.27.1850.887@0.27.1850.887" timestamp="1587051450684" />
+    <state width="1804" height="274" key="GridCell.Tab.1.left/0.27.1850.887@0.27.1850.887" timestamp="1587058035811" />
     <state width="1265" height="216" key="GridCell.Tab.1.left/49.27.1311.741@49.27.1311.741" timestamp="1586991686835" />
-    <state width="1804" height="274" key="GridCell.Tab.1.right" timestamp="1587051450685">
+    <state width="1804" height="274" key="GridCell.Tab.1.right" timestamp="1587058035812">
       <screen x="0" y="27" width="1850" height="887" />
     </state>
-    <state width="1804" height="274" key="GridCell.Tab.1.right/0.27.1850.887@0.27.1850.887" timestamp="1587051450685" />
+    <state width="1804" height="274" key="GridCell.Tab.1.right/0.27.1850.887@0.27.1850.887" timestamp="1587058035812" />
     <state width="1265" height="216" key="GridCell.Tab.1.right/49.27.1311.741@49.27.1311.741" timestamp="1586991686836" />
     <state x="170" y="298" key="com.intellij.ide.util.TipDialog" timestamp="1586800967913">
       <screen x="0" y="27" width="1850" height="887" />

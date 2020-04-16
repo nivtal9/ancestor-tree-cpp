@@ -1,6 +1,6 @@
 /**
  * Demo for Family Tree
- * 
+ *
  * First version by Adam Lev-Ari,  2019-12
  * Second version by Erel Segal-Halevi, 2020-04
  */

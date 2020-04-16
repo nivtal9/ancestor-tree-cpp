@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/nivtal9/CLionProjects/ancestor-tree-cpp/FamilyTree.cpp
+FamilyTree.hpp
+/home/nivtal9/CLionProjects/ancestor-tree-cpp/FamilyTree.hpp
+queue
+-
+
+/home/nivtal9/CLionProjects/ancestor-tree-cpp/FamilyTree.hpp
+iostream
+-
+

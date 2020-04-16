@@ -280,7 +280,9 @@ node *family::Tree::find_search(node *t, int relation, int gender) {
                 node *ans = find_search(t->father, relation, gender);
                 if (ans != nullptr)
                     return ans;
-                else return nullptr;
+                else{
+                    relation++;
+                }
             }
             if(gender==0&&relation==1){
                 relation--;
@@ -316,8 +318,8 @@ void family::Tree::_deleteTree(node *node)
 
     /* then delete the node */
     cout << "Deleting node: " << node->name << endl;
-    free(node->mother);
-    free(node->father);
+    // free(node->mother);
+    //  free(node->father);
     free(node);
 }
 
