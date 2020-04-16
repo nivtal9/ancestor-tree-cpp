@@ -47,7 +47,7 @@ string family::Tree::relation(string name) {
         }
     }
     else{
-        return "unrelated";
+        throw runtime_error ("unrelated");
     }
     return ans;
 }
@@ -55,20 +55,42 @@ string family::Tree::relation(string name) {
 string family::Tree::find(string relationStr) {
     int x=2;
     if (relationStr == "me") {
-        return this->ChildRoot->name;
+        if(this->ChildRoot==nullptr){
+            throw runtime_error("not found");
+        }
+        else {
+            return this->ChildRoot->name;
+        }
     }
     if(relationStr=="mother"){
-        return find_search(this->ChildRoot,1,1)->name;
+        if(find_search(this->ChildRoot,1,1)== nullptr){
+            throw runtime_error("not found");
+        }
+        else {
+            return find_search(this->ChildRoot, 1, 1)->name;
+        }
     }
-    if(relationStr=="father"){
-        return find_search(this->ChildRoot,1,0)->name;
+    if(relationStr=="father") {
+        if (find_search(this->ChildRoot, 1, 0) == nullptr) {
+            throw runtime_error("not found");
+        } else {
+            return find_search(this->ChildRoot, 1, 0)->name;
+        }
     }
     label:
-    if(relationStr=="grandmother"){
-        return find_search(this->ChildRoot,x,1)->name;
+    if(relationStr=="grandmother") {
+        if (find_search(this->ChildRoot, x, 1) == nullptr) {
+            throw runtime_error("not found");
+        } else {
+            return find_search(this->ChildRoot, x, 1)->name;
+        }
     }
-    if(relationStr=="grandfather"){
-        return find_search(this->ChildRoot,x,0)->name;
+    if(relationStr=="grandfather") {
+        if (find_search(this->ChildRoot, x, 0) == nullptr) {
+            throw runtime_error("not found");
+        } else {
+            return find_search(this->ChildRoot, x, 0)->name;
+        }
     }
     while (relationStr != "grandfather" && relationStr != "grandmother") {
         if (relationStr.substr(0, 6) == "great-") {
