@@ -35,7 +35,7 @@ namespace family{
         string find(string relationStr);
         void display();
         bool remove(string name);
-        node* add_remove_search(node* t, string key);
+        node* add_remove_search(node* t, string key,bool flag);
         node* relation_search(node* t, string key, int& relation, int &gender);
         node* find_search(node* t, int relation, int gender);
         void deleteTree(node** node_ref);

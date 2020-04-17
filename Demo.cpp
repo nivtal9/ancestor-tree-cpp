@@ -6,39 +6,61 @@
  */
 
 #include "FamilyTree.hpp"
-
+#include <cassert>
 #include <iostream>
 using namespace std;
 
 int main() {
-    family::Tree T ("Yosef"); // Yosef is the "root" of the tree (the youngest person).
-    T.addFather("Yosef", "Yaakov")   // Tells the tree that the father of Yosef is Yaakov.
-            .addMother("Yosef", "Rachel")   // Tells the tree that the mother of Yosef is Rachel.
-            .addFather("Yaakov", "Isaac")
-            .addMother("Yaakov", "Rivka")
-            .addFather("Isaac", "Avraham")
-            .addFather("Avraham", "Terah");
-    T.display();                        // displays the tree in a human-friendly format.
+    family::Tree T ("Maya");
+    T.addMother("Maya", "Anat").addFather("Maya", "Rami")
+            .addMother("Anat", "Rivka").addFather("Anat", "Yoni")
+            .addMother("Yoni", "Vered").addFather("Yoni", "Shlomi")
+            .addFather("Rami", "David");
 
-    cout << T.relation("Yaakov") << endl;  // prints "father"
-    cout << T.relation("Rachel") << endl;  // prints "mother"
-    cout << T.relation("Rivka") << endl;  // prints "grandmother"
-    cout << T.relation("Avraham") << endl;  // prints "great-grandfather"
-    cout << T.relation("Terah") << endl;  // prints "great-great-grandfather"
-    cout << T.relation("xyz") << endl;  // prints "unrelated"
-    cout << T.relation("Yosef") << endl;  // prints "me"
+    try{(T.remove("Maya"));} //try to remove the root --> exception
+    catch(exception e)
+    {cout<<"niv1\n"<<endl;}
 
-    cout << T.find("mother") << endl;  // prints "Rachel"
-    cout << T.find("great-great-grandfather") << endl;  // prints "Terah"
+    assert((T.find("grandfather") == string("David") || T.find("grandfather") == string("Yoni")));
 
+    assert(T.find("father") == string("Rami"));
+    T.remove("Rami");
+    //T.display();
+    try{(T.find("father"));}
+    catch(exception e)
+    {cout<<"niv2\n"<<endl;}
     try {
-        cout << T.find("uncle") << endl;  // throws an exception
-    } catch (const exception& ex) {
-        cout << ex.what() << endl;  // prints "The tree cannot handle the 'uncle' relation"
+        assert(T.find("grandfather") ==string("Yoni")); //because David has removed from the tree while removing Rami
+
+        assert(T.find("great-grandmother") == string("Vered"));
+        assert(T.find("great-grandfather") == string("Shlomi"));
+    }catch(exception e){
+        cout<<"nivtal\n"<<endl;
     }
+    T.remove("Vered");
+    try{(T.find("great-grandmother"));}
+    catch(exception e)
+    {cout<<"niv3\n"<<endl;}
+    T.remove("Yoni");
+    try{(T.find("great-grandfather"));}
+    catch(exception e)
+    {cout<<"niv4\n"<<endl;}
+    try {T.find(T.find("grandfather"));}
+    catch(exception e)
+    {cout<<"niv5\n"<<endl;}
 
-    T.remove("Avraham"); // removes Avraham and Terah
-    cout << T.relation("Terah") << endl;  // prints "unrelated"
-
-    return 0;
+    T.addFather("Anat", "Nir"); //we've removed Yoni, sowe can add new father to Anat now
+    assert(T.find("grandfather") == string("Nir"));
+    assert(T.find("grandmother") == string("Rivka"));
+    T.remove("Rivka");
+    try{(T.find("grandmother"));}
+    catch(exception e)
+    {cout<<"niv6\n"<<endl;}
+    T.remove("Anat");
+    try{(T.find("grandfather"));}
+    catch(exception e)
+    {cout<<"niv7\n"<<endl;}
+    try{(T.find("mother"));}
+    catch(exception e)
+    {cout<<"niv8\n"<<endl;}
 }
